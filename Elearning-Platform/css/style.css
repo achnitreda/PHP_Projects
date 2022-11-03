@@ -1,0 +1,18 @@
+.btn:hover {
+    color: #fff !important; 
+    background-color: #00C1FE;
+}
+
+.line {
+    padding-left: 0.4rem;
+    border-left: solid #00C1FE;
+    border-left-width: 0.4rem;
+}
+
+.bg-back {
+    background : linear-gradient(69.66deg, #00C1FE 19.39%, #FAFFC1 96.69%) !important;
+}
+
+.bg-yellow {
+    background-color: #FAFFC1 !important;
+}
