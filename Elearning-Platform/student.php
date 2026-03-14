@@ -24,7 +24,7 @@
                 <div class="fs-5 d-none d-md-inline-block">
                   <i class="fas fa-sort text-info"></i>
                 </div>
-                <a href="../E-learning-Platform/Crud/Student/create.php" class="btn btn-info text-uppercase">
+                <a href="../Elearning-Platform/Crud/Student/create.php" class="btn btn-info text-uppercase">
                     <i class="fas fa-plus fa-sm text-white"></i>
                     <span class="text-white d-none d-sm-inline-block">
                       add new student
@@ -55,9 +55,9 @@
                         <td><?= $student->enroll_number; ?></td>
                         <td><?= $student->date_of_admission; ?></td>
                         <td>
-                          <a href="../E-learning-Platform/Crud/Student/edit.php?id=<?= $student->id?>"><i class="fal fa-pen text-info"></i></a>
+                          <a href="../Elearning-Platform/Crud/Student/edit.php?id=<?= $student->id?>"><i class="fal fa-pen text-info"></i></a>
                           &nbsp;&nbsp;
-                          <a onclick="return confirm('Are you sure you want to delete this entry?')" href="../E-learning-Platform/Crud/Student/delete.php?id=<?= $student->id?>"><i class="fal fa-trash text-info"></i></a>
+                          <a onclick="return confirm('Are you sure you want to delete this entry?')" href="../Elearning-Platform/Crud/Student/delete.php?id=<?= $student->id?>"><i class="fal fa-trash text-info"></i></a>
                         </td>
                      </tr>
                   <?php endforeach; ?>

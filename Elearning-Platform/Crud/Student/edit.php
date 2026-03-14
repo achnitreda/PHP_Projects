@@ -16,7 +16,7 @@
         WHERE id=:id';
         $statement = $connect->prepare($sql);
         if($statement->execute([ ':name'=> $name, ':email'=> $email, ':phone'=> $phone, ':enroll_number'=> $enroll_number, ':date_of_admission'=> $date_of_admission, ':id'=> $id])){
-            header("Location: http://localhost/E-learning-Platform/student.php");
+            header("Location: http://localhost/Elearning-Platform/student.php");
         }
     }
 ?>

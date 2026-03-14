@@ -52,7 +52,7 @@
                             <td>DHS <?php  echo $payment['amount']?></td>
                             <td>DHS <?php  echo $payment['balance']?></td>
                             <td><?php  echo $payment['date']?></td>
-                            <td><a href="../E-learning-Platform/Crud/Payment/view.php?id=<?= $payment['id'] ?>">
+                            <td><a href="../Elearning-Platform/Crud/Payment/view.php?id=<?= $payment['id'] ?>">
                             <i class='fal fa-eye text-info'></a></i></td>
                             </tr>
                         

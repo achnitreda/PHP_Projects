@@ -9,7 +9,7 @@
         VALUES(:name, :email, :password)';
         $statement = $connect->prepare($sql);
         if($statement->execute([':name'=> $name, ':email'=> $email, ':password'=> $password])){
-            header("Location: http://localhost/E-learning-Platform/index.php");
+            header("Location: http://localhost/Elearning-Platform/index.php");
         }
     } 
 ?>
